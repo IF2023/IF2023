@@ -1,0 +1,107 @@
+.gridContainer {
+  position: relative;
+  color: white;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+    "title title title title"
+    "logo info info info";
+  grid-template-rows: 70% 30%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.title {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  grid-area: title;
+  font-family: "TERMINATOR";
+  font-size: 9rem;
+}
+.logo {
+  position: absolute;
+  grid-area: logo;
+  height: 50%;
+  left: 5rem;
+  bottom: 5em;
+}
+.info {
+  position: absolute;
+  grid-area: info;
+  text-align: right;
+  right: 5rem;
+  bottom: 5rem;
+}
+
+.info p {
+  line-height: 4rem;
+  font-size: 5rem;
+}
+
+.info .commingSoon {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1800px) {
+  .title {
+    font-size: 7rem;
+  }
+  .info p {
+    font-size: 4rem;
+  }
+  .info .commingSoon {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-height: 850px) {
+  .title {
+    font-size: 7rem;
+  }
+  .info p {
+    font-size: 4rem;
+  }
+  .info .commingSoon {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .title {
+    font-size: 3rem;
+  }
+  .info p {
+    font-size: 2rem;
+    line-height: normal;
+  }
+  .info .commingSoon {
+    font-size: 0.5rem;
+  }
+}
+@media (orientation: portrait) {
+  .title {
+    transform: rotate(-90deg);
+    transform-origin: 40% 160%;
+  }
+
+  .gridContainer {
+    position: relative;
+    grid-template-areas:
+      "title title title logo"
+      "info info info info";
+    grid-template-rows: 70% 30%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .logo {
+    top: 5rem;
+    right: 10rem;
+    width: 50%;
+    height: unset;
+  }
+}
