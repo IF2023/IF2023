@@ -26,10 +26,10 @@ jobs:
         cache-dependency-path: IF2023_Website
     - run: npm ci
     - run: npm run build --if-present
-  deploy:
-    uses: SamKirkland/FTP-Deploy-Action@3.1.2
-    ftp-server: ${{secrets.FTP_SERVERNAME}}
-    ftp-username: ${{secrets.FTP_USERNAME}}
-    ftp-password: ${{secrets.FTP_PASSWORD}}
-    local-dir: "./IF2023_Website/dist"
-    server-dir: "/httpdocs"
+    - uses: SamKirkland/FTP-Deploy-Action@3.1.2
+      with:
+        ftp-server: ${{secrets.FTP_SERVERNAME}}
+        ftp-username: ${{secrets.FTP_USERNAME}}
+        ftp-password: ${{secrets.FTP_PASSWORD}}
+        local-dir: "./IF2023_Website/dist"
+        server-dir: "/httpdocs"
