@@ -28,8 +28,8 @@ jobs:
     - run: npm run build --if-present
     - uses: SamKirkland/FTP-Deploy-Action@3.1.2
       with:
-        ftp-server: ${{secrets.FTP_SERVERNAME}}
-        ftp-username: ${{secrets.FTP_USERNAME}}
-        ftp-password: ${{secrets.FTP_PASSWORD}}
+        server: "${{secrets.FTP_SERVERNAME}}"
+        username: "${{secrets.FTP_USERNAME}}"
+        password: "${{secrets.FTP_PASSWORD}}"
         local-dir: "./IF2023_Website/dist"
-        server-dir: "/httpdocs"
+        server-dir: "./httpdocs"
