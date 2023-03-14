@@ -3,7 +3,7 @@ import Placeholder from "./pages/Placeholder/Placeholder";
 
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <Placeholder />
     </div>
   );
