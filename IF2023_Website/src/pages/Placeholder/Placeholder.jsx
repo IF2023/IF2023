@@ -7,13 +7,13 @@ const Placeholder = () => {
       </h1>
       <img className={styles.logo} src="/assets/IF-Logo_white.svg" alt="Logo" />
       <div className={styles.info}>
-        <p>14. - 16.6.2025</p>
+        <p>14. - 16.6.2023</p>
         <p>
           806 m<sup>2</sup>
         </p>
         <br />
         <p className={styles.commingSoon}>
-          Weiter Informationen folgen in kürze
+          Weiter Informationen folgen in Kürze
         </p>
       </div>
     </div>
