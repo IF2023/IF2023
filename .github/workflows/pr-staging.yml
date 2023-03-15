@@ -30,6 +30,7 @@ jobs:
         cache-dependency-path: IF2023_Website
     - run: npm ci
     - run: npm run build --if-present
+  deploy:
     - uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: "${{secrets.STAGING_FTP_SERVERNAME}}"
@@ -38,4 +39,9 @@ jobs:
         local-dir: "./IF2023_Website/dist/"
         server-dir: "/httpdocs/${{ github.head_ref || github.run_id }}/"
     - run: echo "deploy url https://${{ github.head_ref || github.run_id }}.${{vars.STAGING_DOMAIN_NAME}}"
-    
+  comment:
+    - uses: harupy/comment-on-pr@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: comment-template.md
