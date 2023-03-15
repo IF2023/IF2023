@@ -37,5 +37,5 @@ jobs:
         password: "${{secrets.STAGING_FTP_PASSWORD}}"
         local-dir: "./IF2023_Website/dist/"
         server-dir: "/httpdocs/${{ github.head_ref || github.run_id }}/"
-    - run: echo "deploy url ${{ github.head_ref || github.run_id }}.something.something.example.com"
+    - run: echo "deploy url https://${{ github.head_ref || github.run_id }}.${{vars.STAGING_DOMAIN_NAME}}"
     
