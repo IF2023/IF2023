@@ -1,0 +1,48 @@
+name: PR Staging
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: IF2023_Website
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: IF2023_Website
+    - run: npm ci
+    - run: npm run build --if-present
+    - uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: "${{secrets.STAGING_FTP_SERVERNAME}}"
+        username: "${{secrets.STAGING_FTP_USERNAME}}"
+        password: "${{secrets.STAGING_FTP_PASSWORD}}"
+        local-dir: "./IF2023_Website/dist/"
+        server-dir: "/httpdocs/${{ github.head_ref || github.run_id }}/"
+    - run: echo "try accessing https://${{ github.head_ref || github.run_id }}.${{vars.STAGING_DOMAIN_NAME}}"
+    - uses: thollander/actions-comment-pull-request@v2
+      with:
+        message: |
+          Try accessing https://${{ github.head_ref || github.run_id }}.${{vars.STAGING_DOMAIN_NAME}} - it should be up to date now. If it looks like an older version, make sure it's not your browser's cache!
