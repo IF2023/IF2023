@@ -11,7 +11,7 @@ const Placeholder = () => {
 				<p className={styles.location}>806 qm</p>
 				<br />
 				<p className={styles.commingSoon}>
-					Weiter Informationen folgen in Kürze
+					Weitere Informationen folgen in Kürze
 				</p>
 			</div>
 		</div>
