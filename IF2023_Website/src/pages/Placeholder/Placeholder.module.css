@@ -67,6 +67,7 @@
 }
 @media (orientation: portrait) {
 	.title {
+		text-align: right;
 		font-size: 3rem;
 		transform: rotate(-90deg) translate(-25%, -143%);
 	}
@@ -78,8 +79,10 @@
 	}
 
 	.info {
+		text-align: left;
+		right: auto;
+		left: 2rem;
 		bottom: 2rem;
-		right: 2rem;
 	}
 	.info p {
 		font-size: 2rem;
