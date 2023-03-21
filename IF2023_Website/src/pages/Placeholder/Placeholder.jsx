@@ -3,7 +3,7 @@ const Placeholder = () => {
 	return (
 		<div className={styles.gridContainer}>
 			<h1 className={styles.title}>
-				INTERACTIVE <br /> FUTURE <br /> EXHIBITION
+				INTERACTIVE <br /> FUTURE <br /> EXHIBITION <br /> LOL
 			</h1>
 			<img className={styles.logo} src="/assets/IF-Logo_white.svg" alt="Logo" />
 			<div className={styles.info}>
