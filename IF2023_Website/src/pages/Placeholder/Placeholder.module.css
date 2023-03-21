@@ -8,7 +8,7 @@
 .gridContainer {
 	position: relative;
 	color: white;
-	background-color: black;
+	background-color: gray;
 	height: 100vh;
 	width: 100vw;
 }
