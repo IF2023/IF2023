@@ -8,7 +8,6 @@ const Placeholder = () => {
 			<img className={styles.logo} src="/assets/IF-Logo_white.svg" alt="Logo" />
 			<div className={styles.info}>
 				<p className={styles.date}>18. - 21.7.2023</p>
-				<p className={styles.location}>806 qm</p>
 				<br />
 				<p className={styles.commingSoon}>
 					Weitere Informationen folgen in Kürze
