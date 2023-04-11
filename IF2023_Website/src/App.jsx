@@ -7,7 +7,6 @@ import Contact from "./pages/Contact/Contact";
 import Privacy from "./pages/Privacy/Privacy";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AnimationWrapper from "./components/AnimationWrapper/AnimationWrapper";
 
 function App() {
   return (
