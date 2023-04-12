@@ -2,19 +2,15 @@ name: Lint
 
 on:
   push:
-    branches:
-      - main
-      - staging
+    branches: [main, staging]
   pull_request:
-    branches:
-      - main
-      - staging
+    branches: [main, staging]
 
 jobs:
   run-linters:
     name: Run linters
     runs-on: ubuntu-latest
-
+    working-directory: IF2023_Website
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
