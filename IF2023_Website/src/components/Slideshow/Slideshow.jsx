@@ -18,8 +18,13 @@ const Slideshow = () => {
         })
       );
     }
+
+    //Todo: reset Index on filter change //
   }, [filter]);
 
+  //Todo: Timeout Function to automatically change the index
+
+  //Todo: add navigation bubbles unerneath the ImageFrame to indicate Position and amount of images
   return (
     <div>
       <ImageFrame data={filteredData} index={index} />
