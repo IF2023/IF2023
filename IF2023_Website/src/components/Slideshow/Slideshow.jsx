@@ -3,6 +3,7 @@ import ImageFrame from "./ImageFrame/ImageFrame";
 import InformationBlock from "./InformationBlock/InformationBlock";
 import Filter from "./Filter/filter";
 import BulletNavigation from "./BulletNavigation/BulletNavigation";
+import styles from "./Slideshow.module.scss";
 
 import data from "../../data/projectsData.json";
 
@@ -40,15 +41,19 @@ const Slideshow = () => {
 
   if (filteredData) {
     return (
-      <div>
-        <ImageFrame data={filteredData} index={index} />
-        <BulletNavigation
-          data={filteredData}
-          currentSlide={index}
-          setIndex={setIndex}
-        />
-        <InformationBlock data={filteredData} index={index} />
-        <Filter data={data} setFilter={setFilter} />
+      <div className={styles.flex_row}>
+        <div className={`${styles.flex_column} ${styles.center_secondary}`}>
+          <ImageFrame data={filteredData} index={index} />
+          <BulletNavigation
+            data={filteredData}
+            currentSlide={index}
+            setIndex={setIndex}
+          />
+        </div>
+        <div className={styles.flex_column}>
+          <InformationBlock data={filteredData} index={index} />
+          <Filter data={data} setFilter={setFilter} />
+        </div>
       </div>
     );
   }

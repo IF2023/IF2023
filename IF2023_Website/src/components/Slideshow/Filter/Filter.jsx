@@ -32,7 +32,7 @@ const Filter = ({ data, setFilter }) => {
               handleFilter(item);
             }}
           >
-            // {item}. Semester
+            <b>//</b> {item}. Semester
           </p>
         );
       })}

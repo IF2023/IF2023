@@ -2,6 +2,7 @@ import styles from "./ImageFrame.module.scss";
 
 const ImageFrame = ({ data, index }) => {
   //Todo: Map over data to generate Images
+  //? Lazy-Load Images?
 
   return (
     <div className={styles.ImageFrame}>
