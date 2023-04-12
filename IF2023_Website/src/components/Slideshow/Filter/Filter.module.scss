@@ -1,0 +1,15 @@
+@import "/src/variables";
+
+.filter {
+  color: $color_neon_blue;
+  &:hover {
+    color: $color_blue;
+  }
+}
+
+.active {
+  color: $color_neon_yellow;
+  &:hover {
+    color: $color_neon_yellow;
+  }
+}

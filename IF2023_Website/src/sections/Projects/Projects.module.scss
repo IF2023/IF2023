@@ -1,0 +1,11 @@
+@import "/src/variables";
+.projects {
+  background-color: $color_dark_blue;
+  color: $color_white;
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_lg;
+}

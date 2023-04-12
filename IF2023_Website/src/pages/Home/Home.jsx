@@ -6,7 +6,7 @@ import Projects from "../../sections/Projects/Projects";
 import Speaker from "../../sections/Speaker/Speaker";
 import Supporter from "../../sections/Supporter/Supporter";
 
-const Main = () => {
+const Home = () => {
   return (
     <>
       <Hero />
@@ -20,4 +20,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;
