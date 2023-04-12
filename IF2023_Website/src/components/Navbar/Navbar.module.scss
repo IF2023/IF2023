@@ -1,5 +1,22 @@
 @import "/src/variables";
 
 .navbar {
+  position: fixed;
+  top: 0;
+  height: $navbar-height;
+  width: 100%;
   background-color: $color_black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navbar__logo {
+  height: calc($navbar-height / 2);
+}
+
+.navbar__links {
+  display: flex;
+  color: $color_white;
 }
