@@ -1,0 +1,22 @@
+@import "/src/variables";
+
+$width: 300px;
+$height: 100px;
+
+.ImageFrame {
+  width: $width;
+  height: $height;
+  overflow: hidden;
+}
+
+.SlideContainer {
+  white-space: nowrap;
+  transition: 600ms;
+}
+
+.Slide {
+  width: $width;
+  height: $height;
+  display: inline-block;
+  background-color: green;
+}

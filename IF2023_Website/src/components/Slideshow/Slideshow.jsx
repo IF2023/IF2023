@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import ImageFrame from "./ImageFrame/ImageFrame";
 import InformationBlock from "./InformationBlock/InformationBlock";
 import Filter from "./Filter/filter";
+import BulletNavigation from "./BulletNavigation/BulletNavigation";
 
 import data from "../../data/projectsData.json";
 
@@ -17,20 +18,40 @@ const Slideshow = () => {
           return filter === item.semester ? true : false;
         })
       );
+    } else {
+      setFilteredData(data);
     }
 
-    //Todo: reset Index on filter change //
+    setIndex(0);
   }, [filter]);
 
-  //Todo: Timeout Function to automatically change the index
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (index + 1 >= filteredData.length) {
+        setIndex(0);
+      } else {
+        setIndex(index + 1);
+      }
+    }, 5000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [index, filteredData]);
 
-  //Todo: add navigation bubbles unerneath the ImageFrame to indicate Position and amount of images
-  return (
-    <div>
-      <ImageFrame data={filteredData} index={index} />
-      <InformationBlock data={filteredData} index={index} />
-      <Filter data={data} setFilter={setFilter} />
-    </div>
-  );
+  if (filteredData) {
+    return (
+      <div>
+        <ImageFrame data={filteredData} index={index} />
+        <BulletNavigation
+          data={filteredData}
+          currentSlide={index}
+          setIndex={setIndex}
+        />
+        <InformationBlock data={filteredData} index={index} />
+        <Filter data={data} setFilter={setFilter} />
+      </div>
+    );
+  }
 };
+
 export default Slideshow;
