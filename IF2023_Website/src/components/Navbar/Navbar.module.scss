@@ -1,6 +1,7 @@
 @import "/src/variables";
 
 .navbar {
+	z-index: 999;
   position: fixed;
   top: 0;
   height: $navbar-height;
@@ -9,11 +10,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 3rem;
 }
 
 .navbar__logo {
-  height: calc($navbar-height / 2);
+  height: calc($navbar-height * 0.5);
 }
 
 .navbar__links {

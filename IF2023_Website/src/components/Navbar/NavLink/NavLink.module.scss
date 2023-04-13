@@ -3,5 +3,19 @@
 .navLink {
   color: $color_white;
   text-decoration: none;
-  margin: 0 8px;
+  margin: 0 2rem;
+	transition: color 150ms ease;
+
+	&:hover {
+		color: lightgray;
+	}
+
+	&:first-child {
+		margin-left: 0;
+		margin-right: 2rem;
+	}
+	&:last-child {
+		margin-right: 0;
+		margin-left: 2rem;
+	}
 }
