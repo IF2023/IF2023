@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ImageFrame from "./ImageFrame/ImageFrame";
 import InformationBlock from "./InformationBlock/InformationBlock";
-import Filter from "./Filter/filter";
+import Filter from "./Filter/Filter";
 import BulletNavigation from "./BulletNavigation/BulletNavigation";
 import styles from "./Slideshow.module.scss";
 
