@@ -1,21 +1,25 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter";
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter";
 }
 
 @font-face {
-  font-family: "TERMINATOR";
-  src: url(./fonts/TERMINAT.ttf);
+	font-family: "TERMINATOR";
+	src: url(./fonts/TERMINAT.ttf);
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-Regular.ttf);
+	font-family: "Inter";
+	src: url(./fonts/Inter-Regular.ttf);
 }
 @font-face {
-  font-family: "Inter";
-  src: url(./fonts/Inter-Bold.ttf);
-  font-weight: 900;
+	font-family: "Inter";
+	src: url(./fonts/Inter-Bold.ttf);
+	font-weight: 900;
+}
+
+html {
+	scroll-behavior: smooth;
 }
