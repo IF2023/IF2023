@@ -1,0 +1,21 @@
+@import "/src/variables";
+
+
+.speaker {
+	background-color: $color_blue;
+  color: $color_white;
+	padding: 3rem;
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_lg;
+	margin-bottom: 3rem;
+}
+
+.speaker__wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}

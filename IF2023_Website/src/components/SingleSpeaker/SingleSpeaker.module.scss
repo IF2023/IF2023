@@ -1,0 +1,29 @@
+@import "/src/variables";
+
+.singleSpeaker {
+	width: 260px;
+	font-size: $font_size_sm;
+	margin: 1.5rem;
+}
+
+.speaker__imgContainer {
+	width: 100%;
+	height: 320px;
+	background-color: $color_dark_blue;
+	margin-bottom: 1rem;
+}
+.speaker__img {
+	object-fit: cover;
+}
+
+.speaker__name {
+	font-weight: bold;
+}
+
+.speaker__company {
+	margin-bottom: 1rem;
+}
+
+.speaker__description {
+	text-align: left;
+}

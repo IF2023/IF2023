@@ -1,0 +1,30 @@
+[
+	{
+		"id": "0",
+		"img": "img path here",
+		"name": "Max Mustermann",
+		"company": "Musterfirma",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+	},
+	{
+		"id": "1",
+		"img": "img path here",
+		"name": "Max Meistermann",
+		"company": "Musterfirma",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+	},
+	{
+		"id": "2",
+		"img": "img path here",
+		"name": "Max Knuspermann",
+		"company": "Musterfirma",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+	},
+	{
+		"id": "3",
+		"img": "img path here",
+		"name": "Max Mustermann",
+		"company": "Musterfirma",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+	}
+]
