@@ -7,7 +7,7 @@ const SingleSpeaker = ({ data }) => {
 		<AnimationWrapper>
 			<div className={styles.singleSpeaker}>
 				<div className={styles.speaker__imgContainer}>
-					<img className={styles.speaker__img} src="bla" alt={img} />
+					<img className={styles.speaker__img} src={img} alt={img} />
 				</div>
 				<p className={styles.speaker__name}>{name}</p>
 				<p className={styles.speaker__company}>{company}</p>
