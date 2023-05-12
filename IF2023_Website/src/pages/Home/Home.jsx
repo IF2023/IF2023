@@ -1,4 +1,3 @@
-import Crew from "../../sections/Crew/Crew";
 import Hero from "../../sections/Hero/Hero";
 import Program from "../../sections/Program/Program";
 import Sneakpeek from "../../sections/Sneakpeek/Sneakpeek";
@@ -14,7 +13,6 @@ const Home = () => {
       <Sneakpeek />
       <Projects />
       <Speaker />
-      <Crew />
       <Supporter />
     </>
   );
