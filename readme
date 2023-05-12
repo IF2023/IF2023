@@ -1,0 +1,20 @@
+Moin 
+
+<h1>How to Code in Betrieb nehme</h1>
+
+    1. Mitglied in der Organisation IF2023 in GitHub sein
+    2. Repository runterladen
+        - bei "Code" den Link kopieren
+        - bei GitHub Desktop "repository clonen"
+        - bei dem Reiter "URL" den Link eingeben und runterladen
+        - mit VS Code öffnen
+    3. in den Ordner "IF2023_Website" gehen 
+    4. ein Integriertes Terminal in "src" öffnen
+    5. node-modules installieren mit "npm install / npm i"
+    6. "npm run dev"
+    7. Link zum localhost öffnen
+    8. ta da
+
+
+<h1>Wo finde ich was?</h1>
+
