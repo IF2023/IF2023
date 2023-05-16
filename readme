@@ -1,6 +1,6 @@
 Moin 
 
-<h1>How to Code in Betrieb nehme</h1>
+<h2>How to Code in Betrieb nehmen</h2>
 
     1. Mitglied in der Organisation IF2023 in GitHub sein
     2. Repository runterladen
@@ -16,5 +16,18 @@ Moin
     8. ta da
 
 
-<h1>Wo finde ich was?</h1>
+<h2>Wo finde ich was?</h2>
 
+<h3>Datei-Ordner</h3>
+    Unter "src" liegt der "data"-Ordner. Hier liegen die json Dateien, die uns als Datenbank dienen.
+    Hier liegen die Informationen zu z.B. Projekten oder Speakern.
+    Weitere Organisation innerhalb des Ordners folgt.
+
+<h3>Bilder</h3>
+    Im Ordner "public" werden alle Assets gelagert. Hier gibt es auch den Ordner speziell für Bilder.
+    Weitere Organisation innerhalb des Ordners folgt.
+    In "public" liegt außerdem noch ein Ordner "SVG". Hier liegt bspw. das Logo der Webseite.
+
+<h3>Texte</h3>
+    Texte werden bisher gesondert behandelt. 
+    Für sie gibt es keinen speziellen Ordner, sie kommen direkt in den Code.
