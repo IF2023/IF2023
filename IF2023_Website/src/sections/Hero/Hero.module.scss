@@ -30,7 +30,7 @@
   font-size: $font_size_md;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .heading {
     font-size: $font_size_md;
   }
@@ -38,5 +38,10 @@
   .information {
     margin-top: 50px;
     font-size: $font-size_sm;
+  }
+
+  .hero {
+    background-size: 300% 100%;
+    background-position: left 30% bottom 250px;
   }
 }

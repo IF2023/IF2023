@@ -11,9 +11,7 @@ const Hero = () => {
           </h1>
         </AnimationWrapper>
         <AnimationWrapper>
-          <p className={styles.information}>
-            18. - 21.7.2023 <br></br> 806 qm Darmstadt
-          </p>
+          <p className={styles.information}>19. - 20.7.2023</p>
         </AnimationWrapper>
       </div>
     </section>
