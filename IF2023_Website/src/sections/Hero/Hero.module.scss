@@ -3,4 +3,50 @@
 .hero {
   height: 100vh;
   padding-top: $navbar-height;
+  padding-left: 48px;
+  background-color: $color_black;
+  background-image: url("../../../public/assets/SVG/5649429-01.svg");
+  background-repeat: no-repeat;
+  background-size: 105% 165%;
+  background-position: left -300% bottom 48px;
+  position: relative;
+}
+
+.IFinformation {
+  position: absolute;
+  bottom: 50px;
+}
+
+.heading {
+  color: $color_white;
+  font-family: $font_Terminator;
+  font-size: $font_size_lg;
+}
+
+.information {
+  margin-top: 75px;
+  color: $color_white;
+  font-family: $font_Inter;
+  font-size: $font_size_md;
+}
+
+@media screen and (max-width: 800px) {
+  .heading {
+    font-size: $font_size_md;
+  }
+
+  .information {
+    margin-top: 50px;
+    font-size: $font-size_sm;
+  }
+
+  .hero {
+    background-size: 300% 100%;
+    background-position: left 30% bottom 250px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .heading {
+    font-size: $font_size_sm;
+  }
 }
