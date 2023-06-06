@@ -45,3 +45,8 @@
     background-position: left 30% bottom 250px;
   }
 }
+@media screen and (max-width: 440px) {
+  .heading {
+    font-size: $font_size_sm;
+  }
+}
