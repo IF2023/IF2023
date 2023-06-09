@@ -39,6 +39,11 @@ const Supporter = () => {
           </div>
         </div>
       </div>
+      <img
+        className={styles.backgroundImage}
+        src="/assets/SVG/SVG-Webseite/Footer.svg"
+        alt=""
+      />
     </section>
   );
 };

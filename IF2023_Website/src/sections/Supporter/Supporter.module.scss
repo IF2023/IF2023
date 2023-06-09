@@ -1,16 +1,15 @@
 @import "src/variables";
 
 .supporter {
-  // idk how to squeeze the image, y height should be compressed down, but it scales proportionally instead
-  // (ノಠ益ಠ)ノ彡┻━┻
-  // background-image: url("../../../public/assets/SVG/SVG-Webseite/Footer.svg");
-  // background-position: left 0px bottom -50px;
-  // background-size: 160% 100%;
-  // background-repeat: no-repeat;
-
+  position: relative;
   background-color: $color_black;
   color: $color_white;
-  padding: 10rem 1.5rem 25rem 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.backgroundImage {
+  position: absolute;
+  bottom: 0;
 }
 
 .heading {
