@@ -1,0 +1,42 @@
+@import "src/variables";
+
+.supporter {
+  // idk how to squeeze the image, y height should be compressed down, but it scales proportionally instead
+  // (ノಠ益ಠ)ノ彡┻━┻
+  // background-image: url("../../../public/assets/SVG/SVG-Webseite/Footer.svg");
+  // background-position: left 0px bottom -50px;
+  // background-size: 160% 100%;
+  // background-repeat: no-repeat;
+
+  background-color: $color_black;
+  color: $color_white;
+  padding: 10rem 1.5rem 25rem 1.5rem;
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_lg;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.big img {
+  aspect-ratio: 38 / 13;
+  max-height: 15vw;
+}
+
+.small {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.small img {
+  aspect-ratio: 17 / 11;
+  max-width: 20vw;
+}
