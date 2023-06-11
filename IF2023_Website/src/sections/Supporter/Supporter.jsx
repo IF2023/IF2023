@@ -1,5 +1,6 @@
 import AnimationWrapper from "../../components/AnimationWrapper/AnimationWrapper";
 import styles from "./Supporter.module.scss";
+import data from "../../data/supporters.json";
 
 const Supporter = () => {
   return (
@@ -8,42 +9,34 @@ const Supporter = () => {
         <h1 className={styles.heading}>Danke an unsere Supporter!</h1>
       </AnimationWrapper>
       <div className={styles.grid}>
-        <div>
-          <div className={styles.big}>
-            <a href="">
-              <img src="https://placehold.co/760x260" alt="" />
-            </a>
-          </div>
-          <div className={styles.small}>
-            <a href="">
-              <img src="https://placehold.co/340x220" alt="" />
-            </a>
-            <a href="">
-              <img src="https://placehold.co/340x220" alt="" />
-            </a>
-          </div>
+        <div className={styles.big}>
+          {data
+            .filter((sponsor) => sponsor.tier === "big")
+            .map((sponsor) => {
+              return (
+                <a href={sponsor.href}>
+                  <img src={sponsor.image} alt={sponsor.name} />
+                </a>
+              );
+            })}
         </div>
-        <div>
-          <div className={styles.big}>
-            <a href="">
-              <img src="https://placehold.co/760x260" alt="" />
-            </a>
-          </div>
-          <div className={styles.small}>
-            <a href="">
-              <img src="https://placehold.co/340x220" alt="" />
-            </a>
-            <a href="">
-              <img src="https://placehold.co/340x220" alt="" />
-            </a>
-          </div>
+        <div className={styles.small}>
+          {data
+            .filter((sponsor) => sponsor.tier === "small")
+            .map((sponsor) => {
+              return (
+                <a href={sponsor.href}>
+                  <img src={sponsor.image} alt={sponsor.name} />
+                </a>
+              );
+            })}
         </div>
       </div>
-      <img
+      {/* <img
         className={styles.backgroundImage}
         src="/assets/SVG/SVG-Webseite/Footer.svg"
         alt=""
-      />
+      /> */}
     </section>
   );
 };
