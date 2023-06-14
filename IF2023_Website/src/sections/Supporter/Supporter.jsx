@@ -14,7 +14,7 @@ const Supporter = () => {
             .filter((sponsor) => sponsor.tier === "big")
             .map((sponsor) => {
               return (
-                <a href={sponsor.href}>
+                <a href={sponsor.href} key={sponsor.id}>
                   <img src={sponsor.image} alt={sponsor.name} />
                 </a>
               );
@@ -25,7 +25,7 @@ const Supporter = () => {
             .filter((sponsor) => sponsor.tier === "small")
             .map((sponsor) => {
               return (
-                <a href={sponsor.href}>
+                <a href={sponsor.href} key={sponsor.id}>
                   <img src={sponsor.image} alt={sponsor.name} />
                 </a>
               );
