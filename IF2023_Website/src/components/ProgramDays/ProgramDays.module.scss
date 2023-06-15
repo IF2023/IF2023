@@ -1,0 +1,21 @@
+@import "/src/variables";
+
+.dateWrapper {
+  width: 300px;
+  font: $font_Inter;
+  font-size: $font_size_sm;
+  margin: 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_sm;
+  color: $color_purple;
+  -webkit-text-stroke: 0.05px $color_white;
+
+  margin-top: 5rem;
+}
