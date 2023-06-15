@@ -1,6 +1,5 @@
 import AnimationWrapper from "../../components/AnimationWrapper/AnimationWrapper";
-import ProgramDay from "../../components/ProgramDay/ProgramDay";
-import Slideshow from "../../components/ProgramDay/ProgramDay";
+import ProgramDays from "../../components/ProgramDays/ProgramDays";
 import styles from "./program.module.scss";
 
 const Program = () => {
@@ -9,7 +8,7 @@ const Program = () => {
       <AnimationWrapper>
         <h1 className={styles.heading}>PROGRAM</h1>
       </AnimationWrapper>
-      <ProgramDay />
+      <ProgramDays />
     </section>
   );
 };
