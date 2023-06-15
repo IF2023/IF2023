@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "date": "19.7.",
+    "program": [
+      {
+        "time": "09:30",
+        "title": "Welcome"
+      },
+      {
+        "time": "10:00",
+        "title": "Was kann man nach dem Studium machen?"
+      },
+      {
+        "time": "11:00",
+        "title": "Vortrag"
+      },
+      {
+        "time": "12:00",
+        "title": "Mittagspause"
+      },
+      {
+        "time": "13:00",
+        "title": "Workshop"
+      },
+      {
+        "time": "14:00",
+        "title": "Projekt Päsentationen"
+      },
+      {
+        "time": "15:30",
+        "title": "Vortrag"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "20.7.",
+    "program": [
+      {
+        "time": "09:30",
+        "title": "Welcome"
+      },
+      {
+        "time": "10:00",
+        "title": "Was kann man nach dem Studium machen?"
+      },
+      {
+        "time": "11:00",
+        "title": "Vortrag"
+      },
+      {
+        "time": "12:00",
+        "title": "Mittagspause"
+      },
+      {
+        "time": "13:00",
+        "title": "Workshop"
+      },
+      {
+        "time": "14:00",
+        "title": "Projekt Päsentationen"
+      },
+      {
+        "time": "15:30",
+        "title": "Vortrag"
+      }
+    ]
+  }
+]
