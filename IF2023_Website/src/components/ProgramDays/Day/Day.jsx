@@ -2,7 +2,7 @@ import AnimationWrapper from "../../AnimationWrapper/AnimationWrapper";
 import styles from "./Day.module.scss";
 const Day = ({ date, program }) => {
   return (
-    <div>
+    <div className={styles.singleDay}>
       <AnimationWrapper>
         <h2 id="date" className={styles.heading}>
           {date}
@@ -12,7 +12,9 @@ const Day = ({ date, program }) => {
         {program.map((item) => (
           <p key={item.time}>
             <AnimationWrapper>
-              <span>{item.time}</span> // <span>{item.title}</span>
+              <span className={styles.time}>{item.time}</span>
+              <span className={styles.spacer}>//</span>
+              <span className={styles.title}>{item.title}</span>
             </AnimationWrapper>
           </p>
         ))}
