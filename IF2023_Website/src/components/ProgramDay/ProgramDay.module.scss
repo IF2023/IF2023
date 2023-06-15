@@ -1,0 +1,16 @@
+@import "/src/variables";
+
+.date {
+  width: 300px;
+  font-size: $font_size_sm;
+  margin: 1.5rem;
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_sm;
+  color: $color_purple;
+  -webkit-text-stroke: 0.05px $color_white;
+
+  margin-top: 5rem;
+}
