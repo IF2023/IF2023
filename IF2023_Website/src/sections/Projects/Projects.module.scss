@@ -2,7 +2,8 @@
 .projects {
   background-color: $color_dark_blue;
   color: $color_white;
-  min-height: 100vh;
+  min-height: $full-height;
+  padding: 3rem;
 }
 
 .heading {

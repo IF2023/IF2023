@@ -1,0 +1,20 @@
+@import "/src/variables";
+
+.speaker {
+  background-color: $color_blue;
+  color: $color_white;
+  padding: 1.5rem;
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_lg;
+  margin: 1.5rem 0 3rem 1.5rem;
+}
+
+.speaker__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

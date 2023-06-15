@@ -41,8 +41,10 @@ const Slideshow = () => {
 
   if (filteredData) {
     return (
-      <div className={styles.flex_row}>
-        <div className={`${styles.flex_column} ${styles.center_secondary}`}>
+      <div className={styles.slideshow}>
+        <div
+          className={`${styles.flex_column} ${styles.center_secondary} ${styles.frameWrapper}`}
+        >
           <ImageFrame data={filteredData} index={index} />
           <BulletNavigation
             data={filteredData}
@@ -50,7 +52,7 @@ const Slideshow = () => {
             setIndex={setIndex}
           />
         </div>
-        <div className={styles.flex_column}>
+        <div className={styles.infoBlock}>
           <InformationBlock data={filteredData} index={index} />
           <Filter data={data} setFilter={setFilter} />
         </div>
