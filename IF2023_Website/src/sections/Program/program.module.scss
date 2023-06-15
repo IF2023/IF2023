@@ -1,1 +1,12 @@
 @import "/src/variables";
+.program {
+  background-color: $color_purple;
+  color: $color_white;
+  min-height: $font_size_md;
+  padding: 3rem;
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_md;
+}
