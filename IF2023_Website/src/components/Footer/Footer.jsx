@@ -9,13 +9,13 @@ const Footer = () => {
           <div className={styles.icon}>
             <AiOutlineGlobal />
           </div>
-          <p>IMD Website</p>
+          IMD Website
         </a>
         <a href="https://www.instagram.com/interactivemediadesign.hda/">
           <div className={styles.icon}>
             <AiOutlineInstagram />
           </div>
-          <p>IMD Instagram</p>
+          IMD Instagram
         </a>
       </div>
       <div className={styles.pages}>
