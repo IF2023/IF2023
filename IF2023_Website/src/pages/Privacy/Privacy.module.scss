@@ -7,14 +7,18 @@
 	background-color: $color_dark_blue;
 }
 
-h2 {
+.privacy h1 {
+	font-size: $font_size_lg;
+	margin-bottom: 3rem;
+}
+.privacy h2 {
 	margin-top: 3rem;
   margin-bottom: 1rem;
   font-size: $font_size_md;
 }
-h3 {
+.privacy h3 {
   margin-bottom: 1rem;
 }
-p {
+.privacy p {
   margin-bottom: 1rem;
 }

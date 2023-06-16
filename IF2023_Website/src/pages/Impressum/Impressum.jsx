@@ -3,6 +3,7 @@ import styles from "./Impressum.module.scss";
 const Impressum = () => {
   return (
     <section className={styles.impressum}>
+			<h1>Impressum</h1>
       <h2>Angaben gemäß §5 TMG</h2>
       <p>
         IMD-F &ndash; Interactive Media Design Förderverein e.V. <br />

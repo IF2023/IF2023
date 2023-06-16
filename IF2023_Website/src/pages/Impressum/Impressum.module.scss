@@ -7,14 +7,17 @@
 	background-color: $color_dark_blue;
 }
 
-h2 {
+.impressum h1 {
+	font-size: $font_size_lg;
+}
+.impressum h2 {
 	margin-top: 3rem;
   margin-bottom: 1rem;
   font-size: $font_size_md;
 }
-h3 {
+.impressum h3 {
   margin-bottom: 1rem;
 }
-p {
+.impressum p {
   margin-bottom: 1rem;
 }
