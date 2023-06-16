@@ -2,9 +2,9 @@
 
 .dateWrapper {
   width: 300px;
-  font: $font_Inter;
+  font-family: $font_Inter;
   font-size: $font_size_sm;
-  margin: 1.5rem;
+	margin-bottom: 1.5rem;
   width: 100%;
   display: flex;
   flex-wrap: wrap;

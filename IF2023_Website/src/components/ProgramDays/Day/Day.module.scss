@@ -2,7 +2,7 @@
 
 .heading {
   font-family: $font_Terminator;
-  font-size: $font_size_sm;
+  font-size: $font_size_md;
   color: $color_purple;
   -webkit-text-stroke: 0.05px $color_white;
 
@@ -12,16 +12,30 @@
 
 .singleDay {
   width: fit-content;
-  color: yellow;
+  color: $color_neon_yellow;
+	margin: 0 2rem;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	margin-bottom: 1rem;
+	display: flex;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .time {
-  margin-right: 1rem;
+  margin-right: 1.5rem;
+	width: 60px;
   color: $color_white;
   font-weight: 550;
 }
 
 .title {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   color: $color_white;
 }

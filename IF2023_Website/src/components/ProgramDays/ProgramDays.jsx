@@ -15,11 +15,10 @@ const ProgramDays = () => {
   }
 
   return (
-    <div>
+    <div className={styles.dateWrapper}>
       {jsonData.map((day) => (
         <Day
           key={day.id}
-          className={styles.dateWrapper}
           date={day.date}
           program={day.program}
         />
