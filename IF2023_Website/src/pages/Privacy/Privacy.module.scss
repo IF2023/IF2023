@@ -2,10 +2,14 @@
 
 .privacy {
   margin-top: $navbar-height;
+	padding: 3rem;
+	color: $color_white;
+	background-color: $color_dark_blue;
 }
 
 h2 {
-  margin-bottom: 1.5rem;
+	margin-top: 3rem;
+  margin-bottom: 1rem;
   font-size: $font_size_md;
 }
 h3 {
