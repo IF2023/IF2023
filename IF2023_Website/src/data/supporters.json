@@ -1,41 +1,48 @@
 [
   {
+    "id": "0",
     "name": "Company Name",
     "image": "https://placehold.co/760x260",
     "href": "https://example.com",
     "tier": "big"
   },
   {
+    "id": "1",
     "name": "Company Name",
     "image": "https://placehold.co/760x260",
     "href": "https://example.com",
     "tier": "big"
   },
   {
+    "id": "2",
     "name": "Company Name",
     "image": "https://placehold.co/760x260",
     "href": "https://example.com",
     "tier": "big"
   },
   {
+    "id": "3",
     "name": "Company Name",
     "image": "https://placehold.co/340x220",
     "href": "https://example.com",
     "tier": "small"
   },
   {
+    "id": "4",
     "name": "Company Name",
     "image": "https://placehold.co/340x220",
     "href": "https://example.com",
     "tier": "small"
   },
   {
+    "id": "5",
     "name": "Company Name",
     "image": "https://placehold.co/340x220",
     "href": "https://example.com",
     "tier": "small"
   },
   {
+    "id": "6",
     "name": "Company Name",
     "image": "https://placehold.co/340x220",
     "href": "https://example.com",
