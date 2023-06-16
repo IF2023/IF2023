@@ -1,0 +1,23 @@
+@import "src/variables";
+
+.impressum {
+  margin-top: $navbar-height;
+	padding: 3rem;
+	color: $color_white;
+	background-color: $color_dark_blue;
+}
+
+.impressum h1 {
+	font-size: $font_size_lg;
+}
+.impressum h2 {
+	margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: $font_size_md;
+}
+.impressum h3 {
+  margin-bottom: 1rem;
+}
+.impressum p {
+  margin-bottom: 1rem;
+}
