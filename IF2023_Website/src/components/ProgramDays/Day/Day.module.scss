@@ -13,24 +13,24 @@
 .singleDay {
   width: fit-content;
   color: $color_neon_yellow;
-	margin: 0 2rem;
+  margin-right: 10rem;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 li {
-	margin-bottom: 1rem;
-	display: flex;
+  margin-bottom: 1rem;
+  display: flex;
 
-	&:last-child {
-		margin-bottom: 0;
-	}
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .time {
   margin-right: 1.5rem;
-	width: 60px;
+  width: 60px;
   color: $color_white;
   font-weight: 550;
 }
