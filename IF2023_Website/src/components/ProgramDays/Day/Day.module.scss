@@ -39,3 +39,9 @@ li {
   margin-left: 1.5rem;
   color: $color_white;
 }
+
+@media screen and (max-width: 435px) {
+  .heading {
+    font-size: $font_size_sm;
+  }
+}
