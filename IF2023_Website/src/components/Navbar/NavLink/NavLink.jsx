@@ -1,11 +1,25 @@
 import styles from "./NavLink.module.scss";
-import { Link } from "react-router-dom";
 
 const NavLink = ({ name, destinationId, navToggle }) => {
-  return (
-    <Link className={styles.navLink} to={`/#${destinationId}`} onClick={navToggle}>
-      {name}
-    </Link>
-  );
+	const scrollToSection = (destinationId) => {
+		const elemTop = document
+			.getElementById(destinationId)
+			.getBoundingClientRect().top;
+		console.log(elemTop);
+		// scroll to section position minus navbar height
+		window.scrollBy(0, elemTop - 120);
+	};
+
+	return (
+		<p
+			className={styles.navLink}
+			onClick={() => {
+				navToggle();
+				scrollToSection(destinationId);
+			}}
+		>
+			{name}
+		</p>
+	);
 };
 export default NavLink;

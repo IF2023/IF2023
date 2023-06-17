@@ -17,17 +17,17 @@ function App() {
 					links={[
 						{ name: "Programm", id: "program" },
 						{ name: "Projekte", id: "projects" },
-						{ name: "Electives", id: "electives" },
+						// { name: "Electives", id: "electives" },
 					]}
 				/>
 				<Routes>
 					<Route exact path="/" element={<Home />} />
-					<Route path="/impressum" element={<Impressum />} />
-					<Route path="/kontakt" element={<Contact />} />
-					<Route path="/datenschutz" element={<Privacy />} />
+					<Route exact path="/impressum" element={<Impressum />} />
+					{/* <Route path="/kontakt" element={<Contact />} /> */}
+					<Route exact path="/datenschutz" element={<Privacy />} />
 				</Routes>
+				<Footer />
 			</BrowserRouter>
-			<Footer />
 		</div>
 	);
 }
