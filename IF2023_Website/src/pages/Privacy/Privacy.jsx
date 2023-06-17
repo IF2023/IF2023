@@ -269,7 +269,7 @@ const Privacy = () => {
 				– bleiben unberührt.
 			</p>
 
-			<h2>5. Plugins und Tools</h2>
+			{/* <h2>5. Plugins und Tools</h2>
 			<h3>Vimeo</h3>
 			<p>
 				Diese Website nutzt Plugins des Videoportals Vimeo. Anbieter ist die
@@ -309,7 +309,7 @@ const Privacy = () => {
 			<p>
 				Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der
 				Datenschutzerklärung von Vimeo unter: https://vimeo.com/privacy.
-			</p>
+			</p> */}
 			<p>
 				Für weitere Anfragen wenden Sie sich bitte an den folgenden Kontakt:
 				https://www.e-recht24.de/muster-datenschutzerklaerung.html
