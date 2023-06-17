@@ -17,7 +17,7 @@ function App() {
 					links={[
 						{ name: "Programm", id: "program" },
 						{ name: "Projekte", id: "projects" },
-						{ name: "Electives", id: "electives" },
+						// { name: "Electives", id: "electives" },
 					]}
 				/>
 				<Routes>
