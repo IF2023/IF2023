@@ -11,3 +11,19 @@
   font-family: $font_Terminator;
   font-size: $font_size_lg;
 }
+
+@media screen and (max-width: 800px) {
+	.heading {
+		font-size: 3rem;
+	}
+}
+@media screen and (max-width: 630px) {
+	.heading {
+		font-size: $font_size_md;
+	}
+}
+@media screen and (max-width: 435px) {
+  .heading {
+    font-size: $font_size_sm;
+  }
+}

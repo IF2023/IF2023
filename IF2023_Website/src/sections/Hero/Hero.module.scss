@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 800px) {
   .heading {
-    font-size: $font_size_md;
+    font-size: 3rem;
   }
 
   .information {
@@ -45,7 +45,12 @@
     background-position: left 30% bottom 250px;
   }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 630px) {
+  .heading {
+    font-size: $font_size_md;
+  }
+}
+@media screen and (max-width: 435px) {
   .heading {
     font-size: $font_size_sm;
   }
