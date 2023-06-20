@@ -5,6 +5,7 @@
 	padding: 3rem;
 	color: $color_white;
 	background-color: $color_dark_blue;
+	min-height: calc(100vh - $navbar-height);
 }
 
 .privacy h1 {

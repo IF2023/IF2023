@@ -37,7 +37,7 @@
   font-size: $font_size_md;
   text-align: center;
   color: $color_blue;
-  -webkit-text-stroke: 0.05px $color_white;
+  -webkit-text-stroke: 1px $color_white;
 }
 
 @media screen and (max-width: 800px) {
@@ -54,5 +54,8 @@
   .heading {
     font-size: $font_size_sm;
   }
+	.comingSoon {
+		font-size: $font_size_sm;
+	}
 }
 
