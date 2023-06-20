@@ -5,31 +5,23 @@
     "program": [
       {
         "time": "09:30",
-        "title": "Welcome"
+        "title": "Präsentationen 2. Semester"
       },
       {
-        "time": "10:00",
-        "title": "Nach dem Studium?"
+        "time": "11:25",
+        "title": "Speaker"
       },
       {
-        "time": "11:00",
-        "title": "Vortrag"
-      },
-      {
-        "time": "12:00",
+        "time": "12:15",
         "title": "Mittagspause"
       },
       {
-        "time": "13:00",
-        "title": "Workshop"
+        "time": "13:15",
+        "title": "Präsentationen 6. Semester"
       },
       {
-        "time": "14:00",
-        "title": "Projekt Päsentationen"
-      },
-      {
-        "time": "15:30",
-        "title": "Vortrag"
+        "time": "15:25",
+        "title": "Ausstellung"
       }
     ]
   },
@@ -39,31 +31,23 @@
     "program": [
       {
         "time": "09:30",
-        "title": "Welcome"
+        "title": "Präsentationen 4. Semester"
       },
       {
-        "time": "10:00",
-        "title": "Nach dem Studium?"
-      },
-      {
-        "time": "11:00",
-        "title": "Vortrag"
-      },
-      {
-        "time": "12:00",
+        "time": "12:30",
         "title": "Mittagspause"
       },
       {
-        "time": "13:00",
-        "title": "Workshop"
+        "time": "13:40",
+        "title": "Speaker"
       },
       {
-        "time": "14:00",
-        "title": "Projekt Päsentationen"
+        "time": "14:50",
+        "title": "Speaker"
       },
       {
-        "time": "15:30",
-        "title": "Vortrag"
+        "time": "15:40",
+        "title": "Ausstellung"
       }
     ]
   }
