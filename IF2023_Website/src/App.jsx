@@ -12,14 +12,6 @@ function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
-				<Navbar
-					logo="/assets/IF-Logo_white.svg"
-					links={[
-						{ name: "Programm", id: "program" },
-						{ name: "Projekte", id: "projects" },
-						// { name: "Electives", id: "electives" },
-					]}
-				/>
 				<Routes>
 					<Route exact path="/" element={<Home />} />
 					<Route exact path="/impressum" element={<Impressum />} />
