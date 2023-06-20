@@ -11,8 +11,13 @@ const Projects = () => {
           <br />
           PROJEKTE
         </h1>
-        <Slideshow />
+        {/* <Slideshow /> */}
       </AnimationWrapper>
+      <div className={styles.comingSoonContainer}>
+        <AnimationWrapper>
+          <h3 className={styles.comingSoon}>COMING SOON</h3>
+        </AnimationWrapper>
+      </div>
     </section>
   );
 };
