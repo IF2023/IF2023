@@ -91,7 +91,7 @@ const Privacy = () => {
 				Weisungen in Bezug auf diese Daten befolgen.
 			</p>
 
-			<h2>3. Allgemeine Hinweise und Pflicht­informationen</h2>
+			<h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
 			<h3>Datenschutz</h3>
 			<p>
 				Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten
@@ -234,7 +234,7 @@ const Privacy = () => {
 			</p>
 			<p>
 				Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt
-				haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit
+				haben, dürfen diese Daten &ndash; von ihrer Speicherung abgesehen &ndash; nur mit
 				Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung
 				von Rechtsansprüchen oder zum Schutz der Rechte einer anderen
 				natürlichen oder juristischen Person oder aus Gründen eines wichtigen
@@ -265,8 +265,8 @@ const Privacy = () => {
 				bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur
 				Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt
 				(z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende
-				gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen
-				– bleiben unberührt.
+				gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen
+				&ndash; bleiben unberührt.
 			</p>
 
 			{/* <h2>5. Plugins und Tools</h2>
