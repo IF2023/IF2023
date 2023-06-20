@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 800px) {
   .heading {
     font-size: $font_size_md;
   }
@@ -49,6 +49,13 @@
     background-position: 12% 125%;
   }
 }
+@media screen and (max-width: 435px) {
+  .heading {
+    font-size: $font_size_sm;
+  }
+}
+
+
 
 .backgroundImage {
   scale: 150%;

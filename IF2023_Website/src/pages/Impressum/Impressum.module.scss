@@ -21,3 +21,15 @@
 .impressum p {
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+	.impressum {
+		padding: 1.5rem;
+	}
+	.impressum h1 {
+		font-size: $font_size_md;
+	}
+	.impressum h2 {
+		font-size: $font_size_sm;
+	}
+}

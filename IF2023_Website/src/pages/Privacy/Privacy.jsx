@@ -98,7 +98,7 @@ const Privacy = () => {
           Weisungen in Bezug auf diese Daten befolgen.
         </p>
 
-        <h2>3. Allgemeine Hinweise und Pflicht­informationen</h2>
+        <h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
         <h3>Datenschutz</h3>
         <p>
           Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten
@@ -111,14 +111,13 @@ const Privacy = () => {
           Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie
           persönlich identifiziert werden können. Die vorliegende
           Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir
-          sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das
-          geschieht.
+          sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.
         </p>
         <p>
-          Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B.
-          bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann.
-          Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist
-          nicht möglich.
+          Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei
+          der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein
+          lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht
+          möglich.
         </p>
 
         <h3>Hinweis zur verantwortlichen Stelle</h3>
@@ -213,8 +212,8 @@ const Privacy = () => {
         <p>
           Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer
           personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit
-          unter der im Impressum angegebenen Adresse an uns wenden. Das Recht
-          auf Einschränkung der Verarbeitung besteht in folgenden Fällen:
+          unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf
+          Einschränkung der Verarbeitung besteht in folgenden Fällen:
         </p>
         <p>
           Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen
@@ -231,8 +230,8 @@ const Privacy = () => {
         <p>
           Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie
           jedoch zur Ausübung, Verteidigung oder Geltendmachung von
-          Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung
-          die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu
+          Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die
+          Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu
           verlangen.
         </p>
         <p>
@@ -244,12 +243,12 @@ const Privacy = () => {
         </p>
         <p>
           Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt
-          haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit
+          haben, dürfen diese Daten &ndash; von ihrer Speicherung abgesehen &ndash; nur mit
           Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung
           von Rechtsansprüchen oder zum Schutz der Rechte einer anderen
           natürlichen oder juristischen Person oder aus Gründen eines wichtigen
-          öffentlichen Interesses der Europäischen Union oder eines
-          Mitgliedstaats verarbeitet werden.
+          öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats
+          verarbeitet werden.
         </p>
 
         <h2>4. Datenerfassung auf dieser Website</h2>
@@ -266,61 +265,61 @@ const Privacy = () => {
           lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags
           zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen
           erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf
-          unserem berechtigten Interesse an der effektiven Bearbeitung der an
-          uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer
-          Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt
-          wurde.
+          unserem berechtigten Interesse an der effektiven Bearbeitung der an uns
+          gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer
+          Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.
         </p>
         <p>
           Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben
           bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur
-          Speicherung widerrufen oder der Zweck für die Datenspeicherung
-          entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens).
-          Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche
-          Aufbewahrungsfristen – bleiben unberührt.
+          Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt
+          (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende
+          gesetzliche Bestimmungen &ndash; insbesondere gesetzliche Aufbewahrungsfristen
+          &ndash; bleiben unberührt.
         </p>
 
         {/* <h2>5. Plugins und Tools</h2>
-			<h3>Vimeo</h3>
-			<p>
-				Diese Website nutzt Plugins des Videoportals Vimeo. Anbieter ist die
-				Vimeo Inc., 555 West 18th Street, New York, New York 10011, USA.
-			</p>
-			<p>
-				Wenn Sie eine unserer mit einem Vimeo-Video ausgestatteten Seiten oder
-				die Seite "Stage" besuchen, wird eine Verbindung zu den Servern von
-				Vimeo hergestellt. Dabei wird dem Vimeo-Server mitgeteilt, welche
-				unserer Seiten Sie besucht haben. Zudem erlangt Vimeo Ihre IP-Adresse.
-				Dies gilt auch dann, wenn Sie nicht bei Vimeo eingeloggt sind oder
-				keinen Account bei Vimeo besitzen. Die von Vimeo erfassten Informationen
-				werden an den Vimeo-Server in den USA übermittelt.
-			</p>
-			<p>
-				Wenn Sie in Ihrem Vimeo-Account eingeloggt sind, ermöglichen Sie Vimeo,
-				Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies
-				können Sie verhindern, indem Sie sich aus Ihrem Vimeo-Account ausloggen.
-			</p>
-			<p>
-				Zur Wiedererkennung der Websitebesucher verwendet Vimeo Cookies bzw.
-				vergleichbare Wiedererkennungstechnologien (z.B. Device-Fingerprinting).
-			</p>
-			<p>
-				Die Nutzung von Vimeo erfolgt im Interesse einer ansprechenden
-				Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes
-				Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine
-				entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
-				ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die
-				Einwilligung ist jederzeit widerrufbar.
-			</p>
-			<p>
-				Vimeo verfügt über eine Zertifizierung nach dem EU-US-Privacy-Shield,
-				der die Verarbeitung personenbezogener Daten in den USA nach
-				EU-Standards sicherstellen soll.
-			</p>
-			<p>
-				Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der
-				Datenschutzerklärung von Vimeo unter: https://vimeo.com/privacy.
-			</p> */}
+        <h3>Vimeo</h3>
+        <p>
+          Diese Website nutzt Plugins des Videoportals Vimeo. Anbieter ist die
+          Vimeo Inc., 555 West 18th Street, New York, New York 10011, USA.
+        </p>
+        <p>
+          Wenn Sie eine unserer mit einem Vimeo-Video ausgestatteten Seiten oder
+          die Seite "Stage" besuchen, wird eine Verbindung zu den Servern von
+          Vimeo hergestellt. Dabei wird dem Vimeo-Server mitgeteilt, welche
+          unserer Seiten Sie besucht haben. Zudem erlangt Vimeo Ihre IP-Adresse.
+          Dies gilt auch dann, wenn Sie nicht bei Vimeo eingeloggt sind oder
+          keinen Account bei Vimeo besitzen. Die von Vimeo erfassten Informationen
+          werden an den Vimeo-Server in den USA übermittelt.
+        </p>
+        <p>
+          Wenn Sie in Ihrem Vimeo-Account eingeloggt sind, ermöglichen Sie Vimeo,
+          Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies
+          können Sie verhindern, indem Sie sich aus Ihrem Vimeo-Account ausloggen.
+        </p>
+        <p>
+          Zur Wiedererkennung der Websitebesucher verwendet Vimeo Cookies bzw.
+          vergleichbare Wiedererkennungstechnologien (z.B. Device-Fingerprinting).
+        </p>
+        <p>
+          Die Nutzung von Vimeo erfolgt im Interesse einer ansprechenden
+          Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes
+          Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO dar. Sofern eine
+          entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
+          ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO; die
+          Einwilligung ist jederzeit widerrufbar.
+        </p>
+        <p>
+          Vimeo verfügt über eine Zertifizierung nach dem EU-US-Privacy-Shield,
+          der die Verarbeitung personenbezogener Daten in den USA nach
+          EU-Standards sicherstellen soll.
+        </p>
+        <p>
+          Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der
+          Datenschutzerklärung von Vimeo unter: https://vimeo.com/privacy.
+        </p> */}
+
         <p>
           Für weitere Anfragen wenden Sie sich bitte an den folgenden Kontakt:
           https://www.e-recht24.de/muster-datenschutzerklaerung.html
