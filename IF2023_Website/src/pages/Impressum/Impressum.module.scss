@@ -5,6 +5,7 @@
 	padding: 3rem;
 	color: $color_white;
 	background-color: $color_dark_blue;
+	min-height: calc(100vh - $navbar-height);
 }
 
 .impressum h1 {
@@ -22,7 +23,7 @@
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
 	.impressum {
 		padding: 1.5rem;
 	}

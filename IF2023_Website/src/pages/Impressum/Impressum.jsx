@@ -36,10 +36,10 @@ const Impressum = () => {
           Max-Planck-Strasse 2 <br />
           64807 Dieburg <br />
         </p>
-        <h2>Verbraucherstreitbeilegung/Universalschlichtungsstelle</h2>
+        <h2>Verbraucher&shy;streitbeilegung/<wbr />Universal&shy;schlichtungsstelle</h2>
         <p>
           Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
-          vor einer Verbraucherschlichtungsstelle teilzunehmen. Quelle:
+          vor einer Verbraucher&shy;schlichtungsstelle teilzunehmen. Quelle:
           e-recht24.de
         </p>
       </section>
