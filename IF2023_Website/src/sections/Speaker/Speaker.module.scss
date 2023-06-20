@@ -1,9 +1,11 @@
 @import "/src/variables";
 
 .speaker {
+  position: relative;
   background-color: $color_blue;
   color: $color_white;
   padding: 1.5rem;
+  min-height: calc(100vh - $navbar-height);
 }
 
 .heading {
@@ -17,4 +19,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.comingSoonContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - $navbar-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comingSoon {
+  font-family: $font_Terminator;
+  font-size: $font_size_md;
+  text-align: center;
+  color: $color_blue;
+  -webkit-text-stroke: 0.05px $color_white;
 }
