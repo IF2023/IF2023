@@ -72,8 +72,9 @@
   justify-content: space-around;
   a,
   img {
-    aspect-ratio: 38 / 13;
-    max-height: 15vw;
+    aspect-ratio: 32 / 13;
+		width: 20vw;
+    max-width: 20vw;
   }
 }
 

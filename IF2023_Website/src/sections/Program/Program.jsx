@@ -6,7 +6,7 @@ const Program = () => {
   return (
     <section id="program" className={styles.program}>
       <AnimationWrapper>
-        <h1 className={styles.heading}>PROGRAM</h1>
+        <h1 className={styles.heading}>PROGRAMM</h1>
       </AnimationWrapper>
       <ProgramDays />
     </section>
