@@ -1,0 +1,30 @@
+[
+	{
+		"id": "0",
+		"img": "/assets/Bilder/speaker/randomPerson1.jpg",
+		"name": "Max Mustermann",
+		"company": "Musterfirma",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+	},
+	{
+		"id": "1",
+		"img": "/assets/Bilder/speaker/randomPerson2.jpg",
+		"name": "Max Meistermann",
+		"company": "Musterfirma",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+	},
+	{
+		"id": "2",
+		"img": "/assets/Bilder/speaker/randomPerson3.jpg",
+		"name": "Max Knuspermann",
+		"company": "Musterfirma",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+	},
+	{
+		"id": "3",
+		"img": "/assets/Bilder/speaker/randomPerson4.jpg",
+		"name": "Maximilian Mustermann",
+		"company": "Musterfirma",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+	}
+]

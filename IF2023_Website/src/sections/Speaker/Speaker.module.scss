@@ -1,0 +1,61 @@
+@import "/src/variables";
+
+.speaker {
+  position: relative;
+  background-color: $color_blue;
+  color: $color_white;
+  padding: 1.5rem;
+  min-height: calc(100vh - $navbar-height);
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_lg;
+  margin: 1.5rem 0 3rem 1.5rem;
+}
+
+.speaker__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.comingSoonContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - $navbar-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comingSoon {
+  font-family: $font_Terminator;
+  font-size: $font_size_md;
+  text-align: center;
+  color: $color_blue;
+  -webkit-text-stroke: 1px $color_white;
+}
+
+@media screen and (max-width: 800px) {
+	.heading {
+		font-size: 3rem;
+	}
+}
+@media screen and (max-width: 630px) {
+	.heading {
+		font-size: $font_size_md;
+	}
+}
+@media screen and (max-width: 435px) {
+  .heading {
+    font-size: $font_size_sm;
+  }
+	.comingSoon {
+		font-size: $font_size_sm;
+	}
+}
+

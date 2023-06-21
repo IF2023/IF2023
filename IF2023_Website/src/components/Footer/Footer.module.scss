@@ -1,0 +1,80 @@
+@import "/src/variables";
+.footer {
+	color: $color_white;
+	background-color: $color_black;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: $color_white;
+
+	&:hover {
+		color: lightgray;
+	}
+}
+
+.socials {
+	margin: 0 2rem;
+	display: flex;
+}
+.socials a {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 2rem;
+}
+.socials a .icon {
+	transform: translateY(2px);
+	font-size: 28px;
+	margin-right: 0.5rem;
+}
+
+.pages {
+	margin: 0 2rem;
+}
+.pages a {
+	margin: 0 2rem;
+}
+
+@media screen and (max-width: 980px) {
+	.socials {
+		margin: 0 1rem;
+		display: flex;
+	}
+	.socials a {
+		margin: 0 1rem;
+	}
+
+	.pages {
+		margin: 0 1rem;
+	}
+	.pages a {
+		margin: 0 1rem;
+	}
+}
+@media screen and (max-width: 790px) {
+	.pages {
+		margin: 0 2rem;
+		display: flex;
+		flex-direction: column;
+	}
+	.pages a {
+		margin: 0.25rem 0;
+	}
+}
+@media screen and (max-width: 650px) {
+	.socials {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.socials a {
+		margin: 0.25rem 0;
+	}
+}

@@ -1,0 +1,31 @@
+@import "/src/variables";
+
+.dateWrapper {
+  width: 300px;
+  font-family: $font_Inter;
+  font-size: $font_size_sm;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-family: $font_Terminator;
+  font-size: $font_size_sm;
+  color: $color_purple;
+  // -webkit-text-stroke: 1px $color_white;
+
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 1170px) {
+	.dateWrapper {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 435px) {
+  .heading {
+    font-size: $font_size_sm;
+  }
+}

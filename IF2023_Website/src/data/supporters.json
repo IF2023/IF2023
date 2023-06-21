@@ -1,0 +1,23 @@
+[
+	{
+		"id": "0",
+    "name": "AStA",
+    "image": "/assets/supporter/AStA.png",
+    "href": "",
+    "tier": "big"
+  },
+  {
+		"id": "1",
+    "name": "Honda",
+    "image": "/assets/supporter/honda.png",
+    "href": "",
+    "tier": "big"
+  },
+	{
+		"id": "2",
+		"name": "IMD-F",
+		"image": "/assets/supporter/IMD-F.png",
+		"href": "https://imd-f.de/",
+		"tier": "big"
+	}
+]

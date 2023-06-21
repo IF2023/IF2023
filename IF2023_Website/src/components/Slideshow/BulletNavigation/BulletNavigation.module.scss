@@ -1,0 +1,23 @@
+@import "/src/variables";
+
+.point {
+  width: 10px;
+  height: 10px;
+  background-color: $color_white;
+  border-radius: 9999px;
+  transition: 200ms;
+  &:hover {
+    background-color: $color_neon_yellow;
+  }
+}
+
+.active {
+  width: 20px;
+}
+
+.bulletContainer {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  bottom: 1rem;
+}
