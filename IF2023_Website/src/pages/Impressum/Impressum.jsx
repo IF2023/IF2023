@@ -19,11 +19,11 @@ const Impressum = () => {
           64807 Dieburg <br />
           Vereinsregister: VR 84108 <br />
           Registergericht: Amtsgericht Darmstadt <br />
-          Vertreten durch: Vorsitzende AndreaKrajewski <br />
+          Vertreten durch: Vorsitzende Andrea Krajewski <br />
         </p>
         <h2>Kontakt</h2>
         <p>
-          Telefon: +49-6151-16-39450 <br />
+          Telefon: +49-6151-533-69450 <br />
           E-Mail: info@imd-f.de <br />
         </p>
         <h2>Postadresse</h2>
