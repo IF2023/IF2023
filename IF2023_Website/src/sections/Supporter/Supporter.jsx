@@ -21,9 +21,11 @@ const Supporter = () => {
 								);
 							} else {
 								return (
-									<a href={sponsor.href} key={sponsor.id}>
-										<img src={sponsor.image} alt={sponsor.name} />
-									</a>
+									<div key={sponsor.id}>
+										<a href={sponsor.href}>
+											<img src={sponsor.image} alt={sponsor.name} />
+										</a>
+									</div>
 								);
 							}
 						})}
@@ -40,9 +42,11 @@ const Supporter = () => {
 								);
 							} else {
 								return (
-									<a href={sponsor.href} key={sponsor.id}>
-										<img src={sponsor.image} alt={sponsor.name} />
-									</a>
+									<div key={sponsor.id}>
+										<a href={sponsor.href}>
+											<img src={sponsor.image} alt={sponsor.name} />
+										</a>
+									</div>
 								);
 							}
 						})}
