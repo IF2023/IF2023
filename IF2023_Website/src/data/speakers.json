@@ -1,30 +1,9 @@
 [
 	{
 		"id": "0",
-		"img": "/assets/Bilder/speaker/randomPerson1.jpg",
-		"name": "Max Mustermann",
-		"company": "Musterfirma",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
-	},
-	{
-		"id": "1",
-		"img": "/assets/Bilder/speaker/randomPerson2.jpg",
-		"name": "Max Meistermann",
-		"company": "Musterfirma",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
-	},
-	{
-		"id": "2",
-		"img": "/assets/Bilder/speaker/randomPerson3.jpg",
-		"name": "Max Knuspermann",
-		"company": "Musterfirma",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
-	},
-	{
-		"id": "3",
-		"img": "/assets/Bilder/speaker/randomPerson4.jpg",
-		"name": "Maximilian Mustermann",
-		"company": "Musterfirma",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique enim error amet ab perspiciatis eaque, temporibus deleniti quis at unde ex sunt quisquam ducimus officia nisi illum. Unde atque rerum vero dolore odit fugiat aliquam optio quaerat"
+		"img": "/assets/Bilder/speaker/damjanStamcar.png",
+		"name": "Damjan Stamcar",
+		"company": "Sony",
+		"description": "Damjan Stamcar begann seine Karriere 1996 bei Ericsson als Netzwerkadministrator im Testlabor für neue Netzwerkgenerationen. Später wechselte er zu Sony Ericsson / Sony Mobile und hatte dort verschiedene Positionen im Kundenservice, Produktmanagement und Marketing inne. Im Jahr 2019 trat er dem Sony R&D-Team als Principal Technology Analyst bei und ist nun verantwortlich für das Sony Research Award Program in Europa, das die Zusammenarbeit mit externen Technologien und Forschungseinrichtungen fördert."
 	}
 ]
