@@ -9,16 +9,16 @@ const Speaker = () => {
       <AnimationWrapper>
         <h1 className={styles.heading}>SPEAKER</h1>
       </AnimationWrapper>
-      {/* <div className={styles.speaker__wrapper}>
+      <div className={styles.speaker__wrapper}>
 				{data.map((speaker) => {
 					return <SingleSpeaker key={speaker.id} data={speaker} />;
 				})}
-			</div> */}
-      <div className={styles.comingSoonContainer}>
+			</div>
+      {/* <div className={styles.comingSoonContainer}>
         <AnimationWrapper>
           <h3 className={styles.comingSoon}>COMING SOON</h3>
         </AnimationWrapper>
-      </div>
+      </div> */}
     </section>
   );
 };

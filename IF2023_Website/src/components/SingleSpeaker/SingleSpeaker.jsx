@@ -6,11 +6,13 @@ const SingleSpeaker = ({ data }) => {
 	return (
 		<AnimationWrapper>
 			<div className={styles.singleSpeaker}>
-				<div className={styles.imgContainer}>
-					<img className={styles.img} src={img} alt={img} />
+				<div className={styles.head}>
+					<div className={styles.imgContainer}>
+						<img className={styles.img} src={img} alt={img} />
+					</div>
+					<p className={styles.name}>{name}</p>
+					<p className={styles.company}>{company}</p>
 				</div>
-				<p className={styles.name}>{name}</p>
-				<p className={styles.company}>{company}</p>
 				<p className={styles.description}>{description}</p>
 			</div>
 		</AnimationWrapper>
