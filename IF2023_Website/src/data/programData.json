@@ -8,20 +8,16 @@
 				"title": "Präsentationen 2. Semester"
 			},
 			{
-				"time": "11:25",
-				"title": "Fun-Time"
+				"time": "11:20",
+				"title": "Ausstellung"
 			},
 			{
-				"time": "12:15",
+				"time": "12:00",
 				"title": "Mittagspause"
 			},
 			{
-				"time": "13:15",
+				"time": "13:00",
 				"title": "Präsentationen 6. Semester"
-			},
-			{
-				"time": "15:25",
-				"title": "Ausstellung"
 			}
 		]
 	},
@@ -42,8 +38,12 @@
 				"title": "Speaker: Damjan Stamcar"
 			},
 			{
-				"time": "14:50",
-				"title": "Ausstellung und Fun-Time"
+				"time": "14:40",
+				"title": "Ausstellung"
+			},
+			{
+				"time": "16:00",
+				"title": "Talentshow: „Mehr als IMD“"
 			}
 		]
 	}
