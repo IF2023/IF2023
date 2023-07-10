@@ -19,5 +19,12 @@
 		"image": "/assets/supporter/IMD-F.png",
 		"href": "https://imd-f.de/",
 		"tier": "big"
+	},
+	{
+		"id": "3",
+		"name": "accenture",
+		"image": "/assets/supporter/Accenture.svg",
+		"href": "",
+		"tier": "big"
 	}
 ]
