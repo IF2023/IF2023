@@ -1,105 +1,105 @@
 [
 	{
 		"id": 0,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/whispers.jpeg",
 		"title": "Whispers",
 		"description": "Whispers ist ein auditiver indirekter Navigator mit dem man entspannt verschiedene Ziele wie Restaurants, Kaffees und kleinere Geschäfte die man wahrscheinlich übersehen hätte, entdecken kann. Anhand von subtilen Klängen wird man an diese Orte innerhalb einer 15-Minuten Stadt geführt. Mit diesem Sytem sollen nachhaltige Stadtkonzepte gefördert werden, welche beispielsweise ohne private PKWs existieren.",
 		"semester": 6
 	},
 	{
 		"id": 1,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/habit.png",
 		"title": "Habit",
 		"description": "Habit ist ein Produktsystem, welches aus einem Trackingarmband und einem interaktiven Tagebuch besteht. Ein Patient, welcher auf eine Behandlung auf Medikamenten Basis angewiesen ist, kann mit “Habit” seine eigenen Daten erfassen und gleichzeitig an die Medikamenteneinnahme erinnert werden.",
 		"semester": 4
 	},
 	{
 		"id": 2,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/buddy-stepscore.png",
 		"title": "Buddy & StepScore",
 		"description": "Buddy ist ein Produktsystem, das aus einem Wearable und einem Aktivitätswürfel besteht. Durch Erinnerungen, Motivationsprompts, Vernetzungsmöglichkeiten und Aktivitäten, die an die individuellen Ziele angepasst sind, werden Personen nach einer Reha von Buddy motiviert körperlich aktiv zu sein. Für Arbeitnehmer ist StepScore ein interaktives Produktsystem, welches durch ein Belohnungssystem intrinsisch zur körperlichen Bewegung motiviert und somit Bewegungsmangel im Alltag effektiv entgegenwirkt.",
 		"semester": 4
 	},
 	{
 		"id": 3,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/bloodMates-collaborAid.png",
 		"title": "Blood Mates & CollaborAid",
 		"description": "Das Thema dieser Konzepte ist die Unterstützung von empathsichem Hilfeverhalten. Blood Mates motiviert Nutzende zu einer regelmäßigen Blutspende, während CollaborAid in Notfallsituationen die Soforthilfe durch Bystander begleitet. Die Produktsysteme fördern und koordinieren die Interaktion zwischen Nutzenden innerhalb von Kleingruppen, um Hilfeleistung zu ermöglichen.",
 		"semester": 4
 	},
 	{
 		"id": 4,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/shareIff-moveo.png",
 		"title": "ShareIff & Moveo",
 		"description": "Beide Projekte unterstützen Nutzende bei Verhaltensänderungen. Mit ShareIff wird durch das Teilen von Gegenständen unnötiger Besitz reduziert, was sich positiv auf die Gesundheit auswirkt. Moveo unterstützt Nutzende bei der Entwicklung einer besseren Rückenhaltung, indem dieses Ziel gemeinsam mit Freunden umgesetzt werden kann.",
 		"semester": 4
 	},
 	{
 		"id": 5,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/nutrilife.png",
 		"title": "Nutrilife",
 		"description": "Nutrilife ist eine Anwendung, die Menschen in der Midlife-Crisis, die Schwierigkeiten haben sich gesund zu ernähren, Motivation, Ermutigung und wertvolle Hilfsmittel bietet, um ihre Ernährungsziele zu erreichen und das allgemeine Wohlbefinden zu steigern.",
 		"semester": 2
 	},
 	{
 		"id": 6,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/locally.png",
 		"title": "Locally",
 		"description": "Locally ist eine Webanwendung verbunden mit einem Nachtmarkt. Die Anwendung bietet Stadtbewohnern mit wenig Zeit die Möglichkeit nach der Arbeit noch entspannt auf einem Markt einkaufen zu können und den Abend auf dem Nachtmarkt zu genießen.",
 		"semester": 2
 	},
 	{
 		"id": 7,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/ecoBubble.png",
 		"title": "eco bubble",
 		"description": "eco bubble ist eine webbasierte Anwendung für jungen Menschen, die mit den Konsequenzen ihres Handelns bezüglich des Klimawandels überfordert sind. Sie nimmt Nutzer:innen an die Hand und informiert bzw. motiviert sie ihr Lebensstil gesund und klimafreundlich in Bezug auf die Ernährung zu gestalten.",
 		"semester": 2
 	},
 	{
 		"id": 8,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/perio-vitrack.jpg",
 		"title": "Perio und Vitrack",
 		"description": "Perio und Vitrack sind zwei verschiedene Anhänger, die die Optimierung der Behandlungsprozesse sowie der Arzt-Patienten-Beziehung und die selbstständige Einteilnahme zur Förderung der eigenen Gesundheit der Patient:innen unterstützen.",
 		"semester": 4
 	},
 	{
 		"id": 9,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/builtUp.png",
 		"title": "BuiltUp",
 		"description": "Mithilfe von Bausteinen können Teams ihre komplexen Gedanken visualisieren und sich gegenseitig verständlich machen. BuiltUp gibt ihnen einen Virtual-Reality-Raum, in dem sie gemeinsam Bauen können.",
 		"semester": 6
 	},
 	{
 		"id": 10,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/communix.png",
 		"title": "CommuniX",
 		"description": "Anhand einer digital unterstützten Gruppenaufgabe üben Kinder der 5. Klasse gemeinsam ihre Kommunikativen Kompetenzen in einem dynamischen Kommunikationsszenario und entwickeln Strategien, um mit herausfordernden Kommunikationsszenarien umzugehen.",
 		"semester": 6
 	},
 	{
 		"id": 11,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/yuri.png",
 		"title": "Yuri",
 		"description": "Yuri ist ein empathischer Begleiter, der in teilautonome Fahrzeugsysteme implementiert wird. So kann er helfen emotional überfordernde Notsituationen zu deeskalieren, das Sicherheitsgefühl zu erhöhen und selbstsicher am Straßenverkehr teilzunehmen.",
 		"semester": 6
 	},
 	{
 		"id": 12,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/synaptive.png",
 		"title": "SYNAPTIVE",
 		"description": "SYNAPTIVE ist eine VR-Lernanwendung, die Fahrschülerinnen und Fahrschüler mit Merktechniken dabei unterstützen soll, erforderliche Theorieinhalte zu lernen. Dabei werden Mnemotechniken verwendet die nicht nur zum Lernen der 1.515 Theoriefragen benutzt, sondern auch als Tool für andere Lerninhalte verwendet werden können.",
 		"semester": 6
 	},
 	{
 		"id": 13,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/careflow-docspeak.png",
 		"title": "CareFlow & Docspeak",
 		"description": "Medizinisches Fachpersonal ist in ihrem Arbeitsalltag oft überlastet und gestresst. Das ändern wir, indem wir die zeitraubende Dokumentation automatisieren. Mit unseren interaktiven Produktsystemen CareFlow und Docspeak schaffen wir Zeit. Das Fachpersonal ist dank der gewonnenen Zeit weniger überlastet, gestresst und kann sich ausführlicher um ihre Patienten kümmern.",
 		"semester": 4
 	},
 	{
 		"id": 14,
-		"image": "assets/projects/image1.jpg",
+		"image": "assets/projects/buddy-2.jpeg",
 		"title": "Buddy",
 		"description": "Buddy ist eine Desktop-Webanwendung, welche beschäftige Studierende dabei unterstützt, ihre Ernährung gesünder zu gestalten. Durch die einfache Interaktion mit Buddy und der im Hintergrund laufenden KI passt sich die Anwendung an den Nutzenden an und verhilft ihm zu einer routinierten Ernährungsweise.",
 		"semester": 2
